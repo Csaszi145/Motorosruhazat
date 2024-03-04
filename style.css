@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 /*Főoldal*/
@@ -29,6 +30,7 @@ body {
   background-color: rgba(999, 999, 999, 0.5);
   border-radius: 20px;
   font-family: 'Times New Roman', Times, serif;
+  line-height: 35px;
 }
 nav {
   overflow: hidden;
@@ -237,7 +239,7 @@ a {
   justify-content: center;
   margin: 1rem;
 }
-/*Csizmák*/
+/*Csizmák-Kesztyűk*/
 .evsz {
   max-width: 25rem;
   display: block;
@@ -245,11 +247,9 @@ a {
   position: sticky;
   top: 3.4rem;
   font-size: 14px;
-
   line-height: 0;
+  padding-left: 10px;
 }
-
-/*Kesztyűk*/
 
 /*
 @media(max-width:1000px) {
