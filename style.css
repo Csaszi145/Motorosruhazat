@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 
 /*Főoldal*/
@@ -29,7 +28,7 @@ body {
   margin: auto;
   background-color: rgba(999, 999, 999, 0.5);
   border-radius: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 35px;
 }
 nav {
@@ -137,6 +136,7 @@ h3 {
   justify-content: center;
   align-items: center;
   align-self: center;
+  font-family: inherit;
 }
 .zart .nyitott,
 .adv,
@@ -166,6 +166,7 @@ a {
   justify-content: center;
   align-items: center;
   align-self: center;
+  font-family: inherit;
 }
 .nyari .teli,
 .negy,
@@ -194,8 +195,8 @@ a {
 .Khao_air_kabat,
 .Tacoma_kabat,
 .Westport_kabat {
-  height: 35rem;
-  width: auto;
+  height: auto;
+  width: 80%;
   margin-bottom: 1rem;
   border-radius: 3rem;
 }
@@ -229,8 +230,7 @@ a {
 .Alexius_Farmer,
 .Khao_Air_Nadrag,
 .Tacoma_Nadrag {
-  height: 25rem;
-  width: auto;
+  width: 60%;
   margin-bottom: 1rem;
   border-radius: 1.5rem;
 }
@@ -251,21 +251,285 @@ a {
   padding-left: 10px;
 }
 
-/*
-@media(max-width:1000px) {
-    html{
-        max-width: 800px;
-    }
+@media (max-width: 1000px) {
+  html {
+    max-width: 90vw;
+    margin: auto;
+  }
+  body {
+    max-width: 75vw;
+  }
+  nav {
+    max-width: 75vw;
+  }
+  nav ul {
+    max-width: 75vw;
+  }
+  nav ul li a {
+    font-size: 2vw;
+  }
+  nav ul li a:hover{
+    font-size: 2.2vw;
+  }
+  iframe {
+    max-width: 500px;
+  }
+  #mcsiz_keszty {
+    max-width: 30vw;
+  }
 }
-@media(max-width:500px) {
-    html{
-        max-width: 400px;
-    }
-    
+@media (max-width: 800px) {
+  html {
+    max-width: 90vw;
+    margin: auto;
+  }
+  body {
+    max-width: 75vw;
+  }
+   header {
+    max-height: 15vw;
+  }
+  nav {
+    max-width: 75vw;
+    max-height: 5vw;
+  }
+  nav ul {
+    max-width: 75vw;
+  }
+  nav ul li a {
+    font-size: 2vw;
+  }
+  .evsz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .evszak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .tipus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  iframe {
+    max-width: 500px;
+  }
+  #mcsiz_keszty {
+    max-width: 30vw;
+  }
 }
-@media(max-width:300px) {
-    html{
-        max-width: 250px;
-    }
+@media (max-width: 700px) {
+  html {
+    max-width: 90vw;
+    margin: auto;
+  }
+  body {
+    max-width: 75vw;
+  }
+   header {
+    max-height: 15vw;
+  }
+  nav {
+    max-width: 75vw;
+    max-height: 5vw;
+  }
+  nav ul {
+    max-width: 75vw;
+  }
+  nav ul li a {
+    font-size: 2vw;
+  }
+  .evsz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .evszak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .tipus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  iframe {
+    max-width: 500px;
+  }
+  #mcsiz_keszty {
+    max-width: 30vw;
+  }
 }
-*/
+@media (max-width: 680px) {
+  html {
+    max-width: 90vw;
+    margin: auto;
+  }
+  body {
+    max-width: 75vw;
+    font-size: 2vw;
+  }
+  header {
+    max-height: 15vw;
+  }
+  nav {
+    max-width: 75vw;
+    max-height: 5vw;
+  }
+  nav ul {
+    max-width: 75vw;
+  }
+  nav ul li a {
+    font-size: 2vw;
+  }
+  p,
+  div, li, h1, h2, h3, h4, h5{
+    font-size: 3vw;
+  }
+  .evsz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .evsz button {
+    max-height: 3vw;
+    max-width: 17vw;
+    font-size: 2vw;
+  }
+  .evszak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .evszak button {
+    max-height: 3vw;
+    max-width: 17vw;
+    font-size: 2vw;
+  }
+  .tipus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .tipus button {
+    max-height: 3vw;
+    max-width: 17vw;
+    font-size: 2vw;
+  }
+  iframe{
+    max-height: 10%;
+  }
+  #mcsiz_keszty {
+    max-width: 30vw;
+  }
+  #media_szer {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    max-width: 90vw;
+    margin: auto;
+  }
+  body {
+    max-width: 75vw;
+    font-size: 2vw;
+  }
+  header {
+    max-height: 15vw;
+  }
+  nav {
+    max-width: 75vw;
+    max-height: 5vw;
+  }
+  nav ul {
+    max-width: 75vw;
+  }
+  nav ul li a {
+    font-size: 2vw;
+  }
+  p,
+  div, li, h1, h2, h3, h4, h5{
+    font-size: 3vw;
+  }
+  .evsz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .evsz button {
+    max-height: 3vw;
+    max-width: 17vw;
+    font-size: 2vw;
+  }
+  .evszak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .evszak button {
+    max-height: 3vw;
+    max-width: 17vw;
+    font-size: 2vw;
+  }
+  .tipus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .tipus button {
+    max-height: 3vw;
+    max-width: 17vw;
+    font-size: 2vw;
+  }
+  iframe{
+    max-height: 10%;
+  }
+  #mcsiz_keszty {
+    max-width: 30vw;
+  }
+  #media_szer {
+    display: none;
+  }
+}
